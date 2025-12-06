@@ -1,0 +1,28 @@
+header {
+    display: flex;
+    margin: 1rem 0;
+}
+
+img {
+    width: 80px;
+
+}
+
+
+
+header nav ul {
+    list-style: none;
+    font-size: 0.7em;
+    display: flex;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(28, 28, 28);
+}
+
+li {
+    display: inline;
+    flex-direction: row;
+}

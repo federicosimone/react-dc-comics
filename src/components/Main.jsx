@@ -1,7 +1,10 @@
+import style from "../components/Main.module.css"
+
+
 function Main() {
     return (
         <>
-            <div>Main</div>
+            <main>--Content goes here--</main>
         </>
 
     )
