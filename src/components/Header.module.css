@@ -5,15 +5,16 @@ header {
 
 img {
     width: 80px;
-
+    justify-content: start;
+    margin: 0;
 }
 
-
-
 header nav ul {
+    margin: 0;
     list-style: none;
     font-size: 0.7em;
     display: flex;
+
 
 }
 
