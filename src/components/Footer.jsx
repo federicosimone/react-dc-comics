@@ -1,5 +1,6 @@
 import style from "./Footer.module.css"
 import fb from "../assets/footer-facebook.png"
+import twitter from "../assets/footer-twitter.png"
 
 function Footer() {
     return (
@@ -28,6 +29,10 @@ function Footer() {
                     <div>
                         <span>FOLLOW US</span>
                         <a href="#"><img src={fb} alt="fb" className={style.socialIcons} /></a>
+                        <a href="#"><img src={twitter} alt="twitter" className={style.socialIcons} /></a>
+                        <a href="#"><img src={twitter} alt="twitter" className={style.socialIcons} /></a>
+                        <a href="#"><img src={twitter} alt="twitter" className={style.socialIcons} /></a>
+                        <a href="#"><img src={twitter} alt="twitter" className={style.socialIcons} /></a>
                     </div>
                 </div>
             </div>
