@@ -4,13 +4,22 @@ import twitter from "../assets/footer-twitter.png"
 import youtube from "../assets/footer-youtube.png"
 import pinterest from "../assets/footer-pinterest.png"
 import periscope from "../assets/footer-periscope.png"
+import DigitalComics from "../assets/buy-comics-digital-comics.png"
+import merchandise from "../assets/buy-comics-merchandise.png"
+import subscription from "../assets/buy-comics-subscriptions.png"
+import locator from "../assets/buy-comics-shop-locator.png"
+import powerVisa from "../assets/buy-dc-power-visa.svg"
 
 function Footer() {
     return (
         <>
             <div className={style.background}>
-                <div className={style.boxed}>
-                    Icone varie
+                <div className={`${style.boxed} ${style.iconListWhite} ${style.container} `}>
+                    <div className={`${style.eCommerceLabel} ${style.containerBuy}`}><img src={DigitalComics} alt="digital-comics" className={style.buyIcons} /><span className={style.buyText}>DIGITAL COMICS</span></div>
+                    <div className={`${style.eCommerceLabel} ${style.containerBuy}`}><img src={merchandise} alt="digital-comics" className={style.buyIcons} /><span className={style.buyText}>DC MERCHANDISE</span></div>
+                    <div className={`${style.eCommerceLabel} ${style.containerBuy}`}><img src={subscription} alt="digital-comics" className={style.buyIcons} /><span className={style.buyText}>SUBSCRIPTION</span></div>
+                    <div className={`${style.eCommerceLabel} ${style.containerBuy}`}><img src={locator} alt="digital-comics" className={style.buyIcons} /><span className={style.buyText}>COMIC SHOP LOCATOR</span></div>
+                    <div className={`${style.eCommerceLabel} ${style.containerBuy}`}><img src={powerVisa} alt="digital-comics" className={style.buyIcons} /><span className={style.buyText}>DC POWER VISA</span></div>
                 </div>
             </div>
 

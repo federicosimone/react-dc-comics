@@ -79,7 +79,7 @@
 .container {
     display: flex;
     justify-content: space-between;
-
+    align-items: center;
     gap: 2em;
 }
 
@@ -89,6 +89,10 @@
     list-style: none;
 
 
+}
+
+.iconListWhite {
+    height: 120px;
 }
 
 
@@ -113,4 +117,20 @@ h4 {
     background-position: center;
     background-repeat: no-repeat;
     background-image: url(../assets/dc-logo-bg.png);
+}
+
+.buyIcons {
+    width: 2.2em;
+}
+
+.buyText {
+    color: white;
+    font-size: 0.7em;
+}
+
+.containerBuy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
 }
