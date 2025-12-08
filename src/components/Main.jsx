@@ -1,10 +1,13 @@
-import style from "../components/Main.module.css"
+import style from "./Main.module.css";
 
 
 function Main() {
     return (
         <>
-            <main>--Content goes here--</main>
+            <main>
+                <div className={style.container}>--Content goes Here--</div>
+
+            </main>
         </>
 
     )

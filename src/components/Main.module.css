@@ -2,5 +2,11 @@ main {
     background-color: rgb(28, 28, 28);
     color: white;
     height: 80px;
+    display: flex;
+    align-items: center;
+}
 
+.container {
+    width: 80%;
+    margin: 1em auto;
 }

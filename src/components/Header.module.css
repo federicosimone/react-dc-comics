@@ -1,7 +1,7 @@
 header {
+    max-width: 80%;
+    margin: 0.7em auto;
 
-    margin: 1rem 0;
-    align-items: center;
 }
 
 img {
@@ -13,7 +13,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0
+    padding: 0;
 }
 
 
