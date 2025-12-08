@@ -75,3 +75,37 @@
     background-color: rgb(2, 130, 250);
     color: #303030;
 }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1em;
+    gap: 2em;
+}
+
+.listeFooter {
+    font-weight: 600;
+    color: white;
+    list-style: none;
+
+
+}
+
+.paddingTop {
+    padding-top: 1em;
+}
+
+.listeFooter li a {
+    text-decoration: none;
+    color: gray;
+    font-weight: 300;
+    font-size: 0.6em;
+
+
+
+}
+
+h4 {
+    color: white;
+    padding-bottom: 0.5em;
+}

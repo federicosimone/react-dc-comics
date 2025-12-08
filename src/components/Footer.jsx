@@ -15,15 +15,57 @@ function Footer() {
             </div>
 
             <div className={style.comicsbackground}>
-                <div className={style.boxed}>
-                    <div className={style.liste}>
-                        liste
+                <div className={`${style.boxed} ${style.container}`}>
+                    <div className={`${style.liste} ${style.container}`}>
+                        <div>
+                            <h4>DC COMICS</h4>
+                            <ul className={style.listeFooter}>
+                                <li><a href="#">Characters</a></li>
+                                <li><a href="#">Comics</a></li>
+                                <li><a href="#">Movies</a></li>
+                                <li><a href="#">TV</a></li>
+                                <li><a href="#">Games</a></li>
+                                <li><a href="#">Videos</a></li>
+                                <li><a href="#">News</a></li>
+                            </ul>
+                            <h4 className={style.paddingTop}>SHOP</h4>
+                            <ul className={style.listeFooter}>
+                                <li><a href="#">Shop DC</a></li>
+                                <li><a href="#">Shop DC Collectibles</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>DC</h4>
+                            <ul className={style.listeFooter}>
+                                <li><a href="#">Therms of use</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Ad Choices</a></li>
+                                <li><a href="#">Advertising</a></li>
+                                <li><a href="#">Jobs</a></li>
+                                <li><a href="#">Subscription</a></li>
+                                <li><a href="#">Talent Workshops</a></li>
+                                <li><a href="#">CPSC Certificates</a></li>
+                                <li><a href="#">Ratings</a></li>
+                                <li><a href="#">Shop Help</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>SITES</h4>
+                            <ul className={style.listeFooter}>
+                                <li><a href="#">DC</a></li>
+                                <li><a href="#">MAD magazine</a></li>
+                                <li><a href="#">DC Kids</a></li>
+                                <li><a href="#">DC Universe</a></li>
+                                <li><a href="#">DC Power Visa</a></li>
+                            </ul>
+                        </div>
                     </div>
                     <div className={style.logodc}>
                         Immagine DC in trasparenza
                     </div>
                 </div>
-            </div>
+            </div >
             <div className={style.graybackground}>
                 <div className={`${style.boxed} ${style.followus}`}>
                     <div>
