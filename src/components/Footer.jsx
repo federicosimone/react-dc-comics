@@ -15,11 +15,11 @@ function Footer() {
         <>
             <div className={style.background}>
                 <div className={`${style.boxed} ${style.iconListWhite} ${style.container} `}>
-                    <div className={`${style.eCommerceLabel} ${style.containerBuy}`}><img src={DigitalComics} alt="digital-comics" className={style.buyIcons} /><span className={style.buyText}>DIGITAL COMICS</span></div>
-                    <div className={`${style.eCommerceLabel} ${style.containerBuy}`}><img src={merchandise} alt="digital-comics" className={style.buyIcons} /><span className={style.buyText}>DC MERCHANDISE</span></div>
-                    <div className={`${style.eCommerceLabel} ${style.containerBuy}`}><img src={subscription} alt="digital-comics" className={style.buyIcons} /><span className={style.buyText}>SUBSCRIPTION</span></div>
-                    <div className={`${style.eCommerceLabel} ${style.containerBuy}`}><img src={locator} alt="digital-comics" className={style.buyIcons} /><span className={style.buyText}>COMIC SHOP LOCATOR</span></div>
-                    <div className={`${style.eCommerceLabel} ${style.containerBuy}`}><img src={powerVisa} alt="digital-comics" className={style.buyIcons} /><span className={style.buyText}>DC POWER VISA</span></div>
+                    <div className={`${style.eCommerceLabel} ${style.containerBuy}`}><img src={DigitalComics} alt="digital-comics" className={style.buyIcons} /><a href="#" className={style.buyText}>DIGITAL COMICS</a></div>
+                    <div className={`${style.eCommerceLabel} ${style.containerBuy}`}><img src={merchandise} alt="digital-comics" className={style.buyIcons} /><a href="#" className={style.buyText}>DC MERCHANDISE</a></div>
+                    <div className={`${style.eCommerceLabel} ${style.containerBuy}`}><img src={subscription} alt="digital-comics" className={style.buyIcons} /><a href="#" className={style.buyText}>SUBSCRIPTION</a></div>
+                    <div className={`${style.eCommerceLabel} ${style.containerBuy}`}><img src={locator} alt="digital-comics" className={style.buyIcons} /><a href="#" className={style.buyText}>COMIC SHOP LOCATOR</a></div>
+                    <div className={`${style.eCommerceLabel} ${style.containerBuy}`}><img src={powerVisa} alt="digital-comics" className={style.buyIcons} /><a href="#" className={style.buyText}>DC POWER VISA</a></div>
                 </div>
             </div>
 

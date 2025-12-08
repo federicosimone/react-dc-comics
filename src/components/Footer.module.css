@@ -79,7 +79,6 @@
 .container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     gap: 2em;
 }
 
@@ -104,6 +103,10 @@
 
 }
 
+.listeFooter li a:hover {
+    color: #0282fa;
+}
+
 h4 {
     color: white;
     padding-bottom: 0.5em;
@@ -126,6 +129,11 @@ h4 {
 .buyText {
     color: white;
     font-size: 0.7em;
+    text-decoration: none;
+}
+
+.buyText:hover {
+    color: #303030;
 }
 
 .containerBuy {

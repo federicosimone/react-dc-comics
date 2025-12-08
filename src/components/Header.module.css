@@ -32,6 +32,10 @@ nav li a {
     font-weight: 600;
 }
 
+nav li a:hover {
+    color: rgb(2, 130, 250);
+}
+
 .eCommerceLabel {
     color: white;
 
