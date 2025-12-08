@@ -79,7 +79,7 @@
 .container {
     display: flex;
     justify-content: space-between;
-    padding-top: 1em;
+
     gap: 2em;
 }
 
@@ -91,9 +91,6 @@
 
 }
 
-.paddingTop {
-    padding-top: 1em;
-}
 
 .listeFooter li a {
     text-decoration: none;
@@ -101,11 +98,19 @@
     font-weight: 300;
     font-size: 0.6em;
 
-
-
 }
 
 h4 {
     color: white;
     padding-bottom: 0.5em;
+    padding-top: 2em;
+}
+
+.logodc {
+    width: 50%;
+    height: 300px;
+    background-size: 455px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../assets/dc-logo-bg.png);
 }

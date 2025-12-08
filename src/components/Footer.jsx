@@ -62,7 +62,7 @@ function Footer() {
                         </div>
                     </div>
                     <div className={style.logodc}>
-                        Immagine DC in trasparenza
+
                     </div>
                 </div>
             </div >
