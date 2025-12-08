@@ -58,6 +58,20 @@
 }
 
 .blue {
-    color: rgb(2, 130, 250);
+    color: #0282fa;
     font-weight: 600;
+}
+
+.signButton {
+    background-color: #303030;
+    padding: 0.8em;
+    border: 2.3px solid rgb(2, 130, 250);
+    color: white;
+    font-weight: 600;
+}
+
+.signButton:hover {
+    cursor: pointer;
+    background-color: rgb(2, 130, 250);
+    color: #303030;
 }

@@ -27,7 +27,7 @@ function Footer() {
             <div className={style.graybackground}>
                 <div className={`${style.boxed} ${style.followus}`}>
                     <div>
-                        <button>SIGN-OP NOW!</button>
+                        <button className={style.signButton}>SIGN-UP NOW!</button>
                     </div>
                     <div className={style.rightFollow}>
                         <div className={style.blue}>FOLLOW US</div>
