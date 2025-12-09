@@ -16,13 +16,13 @@
 
 .containerBuy {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     gap: 1em;
 }
 
 .buyIcons {
-    width: 2.2em;
+    width: 2.6em;
 }
 
 .buyText {
@@ -37,4 +37,8 @@
 
 .iconListWhite {
     height: 120px;
+}
+
+.locatorIcon {
+    width: 1.8em;
 }

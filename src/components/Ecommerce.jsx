@@ -13,7 +13,7 @@ function Ecommerce() {
                     <div className={` ${style.containerBuy}`}><img src={DigitalComics} alt="digital-comics" className={style.buyIcons} /><a href="#" className={style.buyText}>DIGITAL COMICS</a></div>
                     <div className={` ${style.containerBuy}`}><img src={merchandise} alt="digital-comics" className={style.buyIcons} /><a href="#" className={style.buyText}>DC MERCHANDISE</a></div>
                     <div className={` ${style.containerBuy}`}><img src={subscription} alt="digital-comics" className={style.buyIcons} /><a href="#" className={style.buyText}>SUBSCRIPTION</a></div>
-                    <div className={` ${style.containerBuy}`}><img src={locator} alt="digital-comics" className={style.buyIcons} /><a href="#" className={style.buyText}>COMIC SHOP LOCATOR</a></div>
+                    <div className={` ${style.containerBuy}`}><img src={locator} alt="digital-comics" className={`${style.buyIcons} ${style.locatorIcon}`} /><a href="#" className={style.buyText}>COMIC SHOP LOCATOR</a></div>
                     <div className={` ${style.containerBuy}`}><img src={powerVisa} alt="digital-comics" className={style.buyIcons} /><a href="#" className={style.buyText}>DC POWER VISA</a></div>
                 </div>
             </div>
