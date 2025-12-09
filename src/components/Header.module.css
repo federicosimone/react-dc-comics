@@ -1,11 +1,11 @@
 header {
     max-width: 80%;
-    margin: 0.7em auto;
+    margin: 0 auto;
 
 }
 
 img {
-    width: 70px;
+    width: 65px;
 
 }
 
@@ -13,7 +13,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0;
+
 }
 
 
@@ -23,18 +23,35 @@ nav ul {
     list-style: none;
     display: flex;
     gap: 1rem;
+    height: 96.4px;
+    align-items: stretch;
 }
 
+nav li {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+
 nav li a {
+    display: flex;
+    align-items: center;
     text-decoration: none;
     color: rgb(28, 28, 28);
     font-size: 0.6em;
     font-weight: 600;
+    height: 100%;
 }
 
 nav li a:hover {
     color: rgb(2, 130, 250);
+    border-bottom: 4px solid rgb(2, 130, 250);
+
 }
+
+
+
 
 .eCommerceLabel {
     color: white;
