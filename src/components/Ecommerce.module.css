@@ -1,0 +1,40 @@
+.background {
+    background-color: rgb(2, 130, 250);
+    min-height: 120px;
+}
+
+.boxed {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    gap: 2em;
+}
+
+.containerBuy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+}
+
+.buyIcons {
+    width: 2.2em;
+}
+
+.buyText {
+    color: white;
+    font-size: 0.7em;
+    text-decoration: none;
+}
+
+.buyText:hover {
+    color: #303030;
+}
+
+.iconListWhite {
+    height: 120px;
+}
