@@ -38,9 +38,9 @@ nav li a {
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: rgb(28, 28, 28);
+    color: rgb(41, 41, 41);
     font-size: 0.6em;
-    font-weight: 600;
+    font-weight: 750;
     height: 100%;
 }
 

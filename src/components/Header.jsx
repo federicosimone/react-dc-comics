@@ -7,7 +7,7 @@ export default function Header() {
             <header>
                 <nav>
                     <div id="logo">
-                        <img src={logo} alt="logo" />
+                        <a href="https://www.dc.com/"><img src={logo} alt="logo" /></a>
                     </div>
                     <div>
                         <ul>
