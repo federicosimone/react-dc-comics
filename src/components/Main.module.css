@@ -3,11 +3,17 @@ main {
     color: white;
     min-height: 100px;
     display: block;
-    padding: 2rem 0 0 0;
 }
 
 .container {
     width: 80%;
     margin: 0 auto;
     padding-bottom: 2rem;
+}
+
+.jumbotron {
+    background-image: url(../assets/jumbotron.jpg);
+    background-size: cover;
+    width: 100%;
+    min-height: 400px;
 }
