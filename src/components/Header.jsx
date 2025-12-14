@@ -26,7 +26,7 @@ export default function Header() {
                         <ul>
                             {
                                 navItems.map((item) => {
-                                    return <li><a href={item.link}>{item.title}</a></li>
+                                    return <li key={item.id}><a href={item.link}>{item.title}</a></li>
                                 })
                             }
                         </ul>
