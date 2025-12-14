@@ -5,6 +5,43 @@ import youtube from "../assets/footer-youtube.png"
 import pinterest from "../assets/footer-pinterest.png"
 import periscope from "../assets/footer-periscope.png"
 
+const DCComics = [
+    { id: 1, title: "Characters", link: "#" },
+    { id: 2, title: "Comics", link: "#" },
+    { id: 3, title: "Movies", link: "#" },
+    { id: 4, title: "TV", link: "#" },
+    { id: 5, title: "Games", link: "#" },
+    { id: 6, title: "Videos", link: "#" },
+    { id: 7, title: "News", link: "#" },
+];
+
+const Shop = [
+    { id: 1, title: "Shop DC", link: "#" },
+    { id: 2, title: "Shop DC Collectibles", link: "#" }
+
+];
+
+const Dc = [
+    { id: 1, title: "Therms of use", link: "#" },
+    { id: 2, title: "Privacy Policy", link: "#" },
+    { id: 3, title: "Ad Choices", link: "#" },
+    { id: 4, title: "Advertising", link: "#" },
+    { id: 5, title: "Jobs", link: "#" },
+    { id: 6, title: "Subscription", link: "#" },
+    { id: 7, title: "Talent Workshops", link: "#" },
+    { id: 8, title: "CPSC Certificates", link: "#" },
+    { id: 9, title: "Ratings", link: "#" },
+    { id: 10, title: "Shop Help", link: "#" },
+    { id: 11, title: "Contact Us", link: "#" }
+];
+
+const Sites = [
+    { id: 1, title: "DC", link: "#" },
+    { id: 2, title: "MAD Magazine", link: "#" },
+    { id: 3, title: "DC Kids", link: "#" },
+    { id: 4, title: "DC Universe", link: "#" },
+    { id: 5, title: "DC Power Visa", link: "#" },
+]
 
 function Footer() {
     return (
@@ -15,44 +52,39 @@ function Footer() {
                         <div>
                             <h4>DC COMICS</h4>
                             <ul className={style.listeFooter}>
-                                <li><a href="#">Characters</a></li>
-                                <li><a href="#">Comics</a></li>
-                                <li><a href="#">Movies</a></li>
-                                <li><a href="#">TV</a></li>
-                                <li><a href="#">Games</a></li>
-                                <li><a href="#">Videos</a></li>
-                                <li><a href="#">News</a></li>
+                                {
+                                    DCComics.map((item) => {
+                                        return <li key={item.id}><a href={item.link}>{item.title}</a></li>
+                                    })
+                                }
                             </ul>
                             <h4 className={style.paddingTop}>SHOP</h4>
                             <ul className={style.listeFooter}>
-                                <li><a href="#">Shop DC</a></li>
-                                <li><a href="#">Shop DC Collectibles</a></li>
+                                {
+                                    Shop.map((item) => {
+                                        return <li key={item.id}><a href={item.link}>{item.title}</a></li>
+                                    })
+                                }
                             </ul>
                         </div>
                         <div>
                             <h4>DC</h4>
                             <ul className={style.listeFooter}>
-                                <li><a href="#">Therms of use</a></li>
-                                <li><a href="#">Privacy Policy</a></li>
-                                <li><a href="#">Ad Choices</a></li>
-                                <li><a href="#">Advertising</a></li>
-                                <li><a href="#">Jobs</a></li>
-                                <li><a href="#">Subscription</a></li>
-                                <li><a href="#">Talent Workshops</a></li>
-                                <li><a href="#">CPSC Certificates</a></li>
-                                <li><a href="#">Ratings</a></li>
-                                <li><a href="#">Shop Help</a></li>
-                                <li><a href="#">Contact Us</a></li>
+                                {
+                                    Dc.map((item) => {
+                                        return <li key={item.id}><a href={item.link}>{item.title}</a></li>
+                                    })
+                                }
                             </ul>
                         </div>
                         <div>
                             <h4>SITES</h4>
                             <ul className={style.listeFooter}>
-                                <li><a href="#">DC</a></li>
-                                <li><a href="#">MAD magazine</a></li>
-                                <li><a href="#">DC Kids</a></li>
-                                <li><a href="#">DC Universe</a></li>
-                                <li><a href="#">DC Power Visa</a></li>
+                                {
+                                    Sites.map((item) => {
+                                        return <li key={item.id}><a href={item.link}>{item.title}</a></li>
+                                    })
+                                }
                             </ul>
                         </div>
                     </div>
