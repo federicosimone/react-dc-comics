@@ -2,6 +2,7 @@
     width: 80%;
     margin: 0 auto;
     padding: 3rem 0 3rem 0;
+    position: relative;
 }
 
 .flex {
@@ -16,7 +17,9 @@
     height: 170px;
     object-fit: cover;
     object-position: top center;
+
 }
+
 
 .imgContainer {
     width: 160px;
@@ -32,4 +35,41 @@
 
 .cardContainer {
     max-width: 170px;
+}
+
+.cardContainer:hover {
+    cursor: pointer;
+    color: rgb(2, 130, 250);
+
+}
+
+.imgZoom {
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+.imgZoom:hover {
+    transform: scale(1.05);
+}
+
+.blueBackground {
+    background-color: rgb(2, 130, 250);
+}
+
+.textColorWhite {
+    color: white;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.series {
+    padding: 0.5em 1em 0.5em 1em;
+    border-style: none;
+    position: absolute;
+    top: -20px;
+    left: 40px;
+}
+
+.series:hover {
+    cursor: pointer;
 }

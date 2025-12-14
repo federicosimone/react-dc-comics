@@ -9,7 +9,7 @@ function Main() {
         <>
             <main>
                 <div className={style.jumbotron}>
-                    <div className={style.container}>--Content goes Here--</div>
+
 
 
                 </div>
