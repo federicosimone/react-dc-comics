@@ -9,9 +9,6 @@ function Main() {
         <>
             <main>
                 <div className={style.jumbotron}>
-
-
-
                 </div>
 
                 <Cards />

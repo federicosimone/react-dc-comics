@@ -14,6 +14,7 @@ function Cards() {
                         comics.map(card => {
                             return (
                                 <div className={style.cardContainer}>
+                                    <a href="#"></a>
                                     <img src={card.thumb} className={`${style.cardImage} ${style.imgZoom}`} alt="ciao" />
                                     <p className={style.label}>{card.series}</p>
                                 </div>
