@@ -20,7 +20,7 @@ export default function Header() {
             <header>
                 <nav>
                     <div id="logo">
-                        <a href="https://www.dc.com/"><img src={logo} alt="logo" /></a>
+                        <a href="https://www.dc.com/"><img src={logo} alt="logo" className={`${style.imgZoom}`} /></a>
                     </div>
                     <div>
                         <ul>

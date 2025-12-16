@@ -9,6 +9,15 @@ img {
 
 }
 
+.imgZoom {
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+.imgZoom:hover {
+    transform: scale(1.05);
+}
+
 nav {
     display: flex;
     justify-content: space-between;
