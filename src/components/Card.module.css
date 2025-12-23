@@ -1,0 +1,33 @@
+.label {
+    padding: 1rem 0 2rem 0;
+    text-transform: uppercase;
+    font-size: 0.8em;
+
+}
+
+.cardContainer {
+    width: 15%;
+}
+
+.cardContainer:hover {
+    cursor: pointer;
+    color: rgb(2, 130, 250);
+
+}
+
+.imgZoom {
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+.imgZoom:hover {
+    transform: scale(1.05);
+}
+
+.cardImage {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: top center;
+
+}

@@ -1,5 +1,6 @@
-import style from "./Cards.module.css"
+import style from "./CardsList.module.css"
 import comics from "../assets/dc-comics-2/comics"
+import Card from "./Card"
 
 function Cards() {
     return (
@@ -12,14 +13,7 @@ function Cards() {
 
                     {
                         comics.map(card => {
-                            return (
-                                <div key={card.id} className={style.cardContainer}>
-                                    <a href="#"></a>
-                                    <img src={card.thumb} className={`${style.cardImage} ${style.imgZoom} col-md-6`} alt="comics-cover" />
-                                    <p className={style.label}>{card.series}</p>
-                                </div>
-
-                            )
+                            return <Card card={card} />
                         })
                     }
 

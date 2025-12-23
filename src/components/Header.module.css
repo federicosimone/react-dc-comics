@@ -51,12 +51,17 @@ nav li a {
     font-size: 0.6em;
     font-weight: 750;
     height: 100%;
+
 }
 
 nav li a:hover {
     color: rgb(2, 130, 250);
-    border-bottom: 4px solid rgb(2, 130, 250);
 
+
+}
+
+nav li:hover {
+    border-bottom: 4px solid rgb(2, 130, 250);
 }
 
 
