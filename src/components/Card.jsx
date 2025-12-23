@@ -1,6 +1,7 @@
 import style from "./Card.module.css"
 
 function Card(props) {
+
     const card = props.card;
 
     return (
