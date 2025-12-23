@@ -9,6 +9,7 @@ function Card(props) {
             <a href="#"></a>
             <img src={card.thumb} className={`${style.cardImage} ${style.imgZoom} col-md-6`} alt="comics-cover" />
             <p className={style.label}>{card.series}</p>
+            <div className={style.heart}><i class="fa-solid fa-heart"></i></div>
         </div>
 
     )

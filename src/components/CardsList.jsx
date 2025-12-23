@@ -1,6 +1,7 @@
 import style from "./CardsList.module.css"
 import comics from "../assets/dc-comics-2/comics"
 import Card from "./Card"
+import batmanBg from "../assets/batman.png"
 
 function Cards() {
     return (
@@ -9,6 +10,7 @@ function Cards() {
                 <button className={`${style.blueBackground} ${style.textColorWhite} ${style.series}`}>
                     CURRENT SERIES
                 </button>
+
                 <div className={style.flex}>
 
                     {

@@ -3,6 +3,10 @@
     margin: 0 auto;
     padding: 3rem 0 3rem 0;
     position: relative;
+    background-image: url(../assets/batman.png);
+    background-repeat: no-repeat;
+    background-size: 50rem;
+
 }
 
 .flex {
