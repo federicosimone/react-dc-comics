@@ -34,6 +34,15 @@
 .socialIcons {
     width: 1.7em;
 
+
+}
+
+.socialIcons:hover {
+    border: solid;
+    border-width: 2px;
+    border-color: rgb(2, 130, 250);
+    border-radius: 50px;
+
 }
 
 .iconList {
