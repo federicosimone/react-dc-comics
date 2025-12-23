@@ -2,7 +2,7 @@ import style from "./Card.module.css"
 
 function Card(props) {
 
-    const card = props.card;
+    const card = props.fumetto;
 
     return (
         <div key={card.id} className={style.cardContainer}>

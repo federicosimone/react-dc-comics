@@ -13,7 +13,7 @@ function Cards() {
 
                     {
                         comics.map(comic => {
-                            return <Card card={comic} />
+                            return <Card fumetto={comic} />
                         })
                     }
 
