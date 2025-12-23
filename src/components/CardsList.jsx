@@ -12,8 +12,8 @@ function Cards() {
                 <div className={style.flex}>
 
                     {
-                        comics.map(card => {
-                            return <Card card={card} />
+                        comics.map(comic => {
+                            return <Card card={comic} />
                         })
                     }
 
